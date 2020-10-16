@@ -2,7 +2,9 @@
 #include <ctype.h>
 
 #define MAX_LENGTH 11
+
 int hexStringToInt(char s[]){
+
   int n, i;
 
   n = 0;
@@ -14,8 +16,8 @@ int hexStringToInt(char s[]){
       ((tolower(s[i]) - 'a' + 10) * !(isdigit(s[i]) != 0));
   }
   return n;
-
 }
+
 int mygetline (char s[], int lim){
 	int c, i;
 
@@ -26,6 +28,7 @@ int mygetline (char s[], int lim){
 	s[i] = '\0';
 	return i;
 }
+
 int main(){
 	int len;
 
