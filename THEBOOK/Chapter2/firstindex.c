@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_LENGTH 100
+# d efine MAX_LENGTH 100
 
 int firstindex(char s[], char t[]){
 
